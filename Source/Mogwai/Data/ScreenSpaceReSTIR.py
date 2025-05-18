@@ -22,5 +22,7 @@ def render_graph_ScreenSpaceReSTIRGraph():
     return g
 
 ScreenSpaceReSTIRGraph = render_graph_ScreenSpaceReSTIRGraph()
-try: m.addGraph(ScreenSpaceReSTIRGraph)
+try: 
+    m.addGraph(ScreenSpaceReSTIRGraph)
+    m.loadScene('VeachAjar/VeachAjarAnimated.pyscene')
 except NameError: None
